@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .header {
+            font-size: 48px;
+            line-height: 1.6em;
+        }
+
+        .navigation a {
+            color: blueviolet;
+            font-size: 20px; /* Adjusted for better responsiveness */
+            margin: 0 10px; /* Adjusted spacing */
+        }
+
+        .content {
+            width: 50%;
+            margin: 4rem auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+            text-justify: inter-word; 
+        }
+
+        .profile-picture { 
+            width: 100%; 
+            height: auto; 
+            margin-top: 20px; 
+        }
+
+        @media (min-width: 768px) {
+            .content {
+                width: 50%;
+
+            }
+
+            .navigation a {
+                font-size: 35px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid sticky-top bg-white">
+        <div class="row">
+            <div class="col-12">
+                <header class="header py-3">RAJKISHORE NANDI</header>
+            </div>
+        </div>
+        <nav class="row navigation">
+            <div class="col-12 navigation">
+                <a href="index.html">Home</a>
+                <a href="Internships.html">Internships</a>
+                <a href="Projects.html">Projects</a>
+                <a href='Contacts.html'> Contacts</a>
+                <a href="CV.html">CV</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container content">
+        <!-- <div class="row">
+            <div class="col-12 content"> -->
+                <!-- Example Internship Block -->
+                
+                
+                 <div>
+                    <h2 style="color: red;"> Encora - IITM </h2>
+                    <h4> LLM Intern</h4>
+                    <p> Worked in the development of an AI-assisted Mentoring app project which can give real time feedbacks to students of their written code using OpenAI Api services and help them to improve code quality and fix their errors.</p>
+                </div>
+                
+                <br>
+
+                <div ><h2 style="color: red;"> IIT Madras </h2>
+                    <h4> Reaserch Intern</h4>
+                    <p> Implemented a deep learning model to predict the end-term scores of 15,000 students based on their quiz 1 performance. Leveraged the power of neural networks to create an accurate regression model that could foresee students performance trends. </p>
+                
+                </div>
+                <br>
+                
+                
+                <div><h2 style="color: red;"> IITM BS Degree</h2>
+                    <h4> Teaching Assistant - Statistics </h4>
+                    <p>Fulfilled the role of Teaching Assistant for a prominent statistics course at IIT Madras,providing comprehensive academic support to a cohort of 1800 students. Led livesessions, offered guidance on complex statistical problems, and facilitated interactive tutorial sessions to enhance student comprehension of course materials. </p>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
