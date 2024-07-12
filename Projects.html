@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .header {
+            font-size: 48px;
+            line-height: 1.6em;
+        }
+
+        .navigation a {
+            color: blueviolet;
+            font-size: 20px; /* Adjusted for better responsiveness */
+            margin: 0 10px; /* Adjusted spacing */
+        }
+
+        .content {
+            width: 50%;
+            margin: 4rem auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+            text-justify: inter-word; 
+        }
+
+        .profile-picture { 
+            width: 100%; 
+            height: auto; 
+            margin-top: 20px; 
+        }
+
+        @media (min-width: 768px) {
+            .content {
+                width: 50%;
+            }
+
+            .navigation a {
+                font-size: 35px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid sticky-top bg-white">
+        <div class="row">
+            <div class="col-12">
+                <header class="header py-3">RAJKISHORE NANDI</header>
+            </div>
+        </div>
+        <nav class="row navigation">
+            <div class="col-12">
+                <a href="index.html">Home</a>
+                <a href="Internships.html">Internships</a>
+                <a href="Projects.html">Projects</a>
+                <a href='Contacts.html'> Contacts</a>
+                <a href="CV.html">CV</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container content">
+        <!-- <div class="row">
+            <div class="col-12 content"> -->
+
+                <div>
+                    <h2 style="color: rgb(255, 0, 0);">Cricket AI</h2>
+                    
+                    <h5><i>Coded AI agents using Bandit and RL Algorithms that can employ effective betting strategies in the game of
+                        cricket</i></h5>
+                    <br>
+
+                    
+
+                    <p>•  Given State of the match that is wickets in hand and overs left the Agent can decide what shot to play next using
+                        Q Learning.</p>
+                    <p>•  Implemented KL-UCB Algorithm to find out the least risk taking shot at every ball.
+                    </p>
+                    
+                </div>
+                <br>
+
+                <div>
+                    <h2><a href="https://www.kaggle.com/competitions/ecommerce-shoppers-behaviour" target="_blank" style="color: red; text-decoration: none;">E-Commerce Shoppers Behaviour - Kaggle</a></h2>
+                    
+                    <h5><i>Secured 20th position in the Kaggle compeition of predicting customers behaviour out of 769 participants.</i></h5>
+                    
+                    <br>
+
+                    <p>•  Conducted in-depth analysis of customer data through EDA, understanding the purchase behaviour of customers
+                          seeing their behaviour pattern while they visited the website.</p>
+                    <p>• Employed advanced machine learning techniques to train diverse models, achieving a noteworthy <b>0.716 F1 score</b> in
+                        predicting the customers purchase behaviour.</p>
+                    <p>• Implemented models like <i>Logistic Regression, Random Forest Classifier, SVM model and Stacking classifier </i>using <b>Scikit learn Library</b>.</p>
+                </div>
+                <br>
+                <div>
+                    <h2 ><a href="https://www.canva.com/design/DAGDHdf2e08/uS56-Ov666xsU7GXtYL1Xg/view?utm_content=DAGDHdf2e08&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" style="color: red; text-decoration: none;"> Platform Analysis of Big Basket </a></h2>
+                    <h5><i>Secured 3rd position in the Data Visualization Design Project among 70 students who participated.</i></h4>
+
+                    <br>
+                
+                    <p>• Executed Product analysis for different category of products along with their reviews and also analysed the
+                        different Brands selling on the platform with Pandas and Google Sheets.</p>
+                    <p>• Identified top-selling products, top performing brands, and assessed promotional impacts through statistical and
+                        graphical methods.</p>
+                    <p>• Curated valuable recommendations to enhance overall sales performance of the platform strategies for Top 3
+                        brands on the platform.</p>
+                    <p>• Tools used in the whole analysis <b>Numpy, Pandas, Google Sheets, Seaborn, Matplotlib, PowerBI</b>.</p>
+                </div>
+                <br>
+                <div>
+                    <h2><a href="https://github.com/Rajkishore2904/Bloglite-Application" target="_blank" style="color: red; text-decoration: none;">Bloglite Application</a></h2>
+                    
+                    <h5><i>Personal blog creating website</i></h5>
+                    <br>
+
+                    
+
+                    <p>• Used <b>HTML, CSS, VueJS </b>to create the front-end for this single page web application.</p>
+                    <p>• Used <b>Flask </b>web framework for designing the backend.</p>
+                    <p>• Used <b>SQLITE3 </b> as the backend database.</p>
+                    <p>• Made use of various utilities like <b>Celery, Redis </b>to make the application faster and easily scalable for multiple users.</p>
+                    <p>• Implemented cronjobs to send the user monthly reports in their email.</p>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
